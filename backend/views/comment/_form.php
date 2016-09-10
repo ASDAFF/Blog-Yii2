@@ -18,7 +18,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'content')->textInput(['maxlength' => 255]) ?>
 
-    <?= $form->field($model, 'publish_status')->dropDownList([ 'moderate' => 'Moderate', 'publish' => 'Publish', ], ['prompt' => '']) ?>
+    <?= $form->field($model, 'publish_status')->dropDownList([ 'moderate' => 'Moderate', 'publish' => Yii::t('app', 'Publish'), ], ['prompt' => '']) ?>
 
     <?= $form->field($model, 'post_id')->textInput() ?>
 

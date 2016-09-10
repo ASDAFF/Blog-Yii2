@@ -61,9 +61,9 @@ class Comment extends ActiveRecord
         return [
             'id' => 'ID',
             'pid' => 'Pid',
-            'title' => 'Title',
-            'content' => 'Content',
-            'publish_status' => 'Publish status',
+            'title' => Yii::t('app', 'Title'),
+            'content' => Yii::t('app', 'Content'),
+            'publish_status' => Yii::t('app', 'Publish status'),
             'post_id' => 'Post ID',
             'author_id' => 'Author ID',
         ];

@@ -44,6 +44,10 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+
     ],
     'params' => $params,
+    'language' => 'ru-RU',
+
+    
 ];
